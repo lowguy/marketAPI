@@ -11,13 +11,12 @@ namespace model\logic;
 use model\database\Table;
 class Card
 {
-    public function bund($user_id,$name,$account,$phone,$bank,$type){
+    public function bund($user_id,$name,$account,$bank,$type){
         $table = new Table('card');
         $data  = array(
             'user_id'   =>$user_id,
             'name'      =>$name,
             'account'   =>$account,
-            'phone'     =>$phone,
             'bank'      =>$bank,
             'type'      =>$type
         );

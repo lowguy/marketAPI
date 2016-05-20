@@ -32,16 +32,15 @@ class Card extends \web\common\Controller
             $code      = 2;
             $name      = trim($_POST['name']);
             $account   = trim($_POST['account']);
-            $phone     = trim($_POST['phone']);
             $bank      = trim($_POST['bank']);
             $type      = intval($_POST['type']);
             $bank      = $bank ? $bank : '支付宝';
-            if($name && $account && $phone){
+            if($name && $account){
                 $card  = new \model\logic\Card();
                 $data  = $card->info($user_id,$account);
                 if(empty($data)){
                     $code  = 3;
-                    $res   = $card->bund($user_id,$name,$account,$phone,$bank,$type);
+                    $res   = $card->bund($user_id,$name,$account,$bank,$type);
                     if($res){
                         $code = 0;
                     }
