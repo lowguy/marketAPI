@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "59e56426c5f947ab58fc8b9373328b47",
+    "content-hash": "ee01dd41d5943e49fa51b1b04eefa063",
+    "packages": [
+        {
+            "name": "jpush/jpush",
+            "version": "v3.3.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jpush/jpush-api-php-client.git",
+                "reference": "d38d87bd66595473586b38fbb43d097ada75e8e2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jpush/jpush-api-php-client/zipball/d38d87bd66595473586b38fbb43d097ada75e8e2",
+                "reference": "d38d87bd66595473586b38fbb43d097ada75e8e2",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "jpush": "src/"
+                },
+                "files": [
+                    "src/JPush/JPush.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache"
+            ],
+            "authors": [
+                {
+                    "name": "JPush",
+                    "email": "support@jpush.cn",
+                    "homepage": "https://www.jpush.cn/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "JPush API PHP Client",
+            "homepage": "http://docs.jpush.cn/display/dev/Push-API-v3",
+            "time": "2016-04-07 02:58:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

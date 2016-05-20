@@ -1,0 +1,6 @@
+{
+    "name": "xxj/api",
+    "require": {
+        "jpush/jpush": "^3.3"
+    }
+}

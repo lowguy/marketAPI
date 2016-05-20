@@ -1,0 +1,2 @@
+log="/www/cron/log/order/dispatch/"$(date +%Y-%m-%d)
+/usr/php/bin/php /www/cron/order/dispatch.php >> $log

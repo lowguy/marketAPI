@@ -1,0 +1,2 @@
+log="/www/cron/log/order/balance/"$(date +%Y-%m-%d)
+/usr/php/bin/php /www/cron/order/balance.php >> $log

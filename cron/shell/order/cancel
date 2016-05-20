@@ -1,0 +1,2 @@
+log="/www/cron/log/order/cancel/"$(date +%Y-%m-%d)
+/usr/php/bin/php /www/cron/order/cancel.php >> $log
